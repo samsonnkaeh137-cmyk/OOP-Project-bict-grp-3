@@ -1,0 +1,26 @@
+{
+    "include": [
+        "Python Library Management system"
+    ],
+    "exclude": [
+        "**/__pycache__",
+        "**/venv",
+        "**/.venv"
+    ],
+    "executionEnvironments": [
+        {
+            "root": "Python Library Management system",
+            "pythonVersion": "3.9",
+            "pythonPlatform": "Darwin",
+            "extraPaths": [
+                "Python Library Management system/venv/lib/python3.9/site-packages"
+            ]
+        }
+    ],
+    "reportMissingImports": "warning",
+    "reportMissingModuleSource": false,
+    "reportMissingTypeStubs": false,
+    "typeCheckingMode": "basic",
+    "stubPath": "Python Library Management system/venv/lib/python3.9/site-packages"
+}
+
